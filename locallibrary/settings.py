@@ -35,7 +35,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'k_@(r$sq#(t!zozh+9+fncer-nxw-9
 # DEBUG = True
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['limitless-springs-93128.herokuapp.com']
 
 
 # Application definition
